@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Online Start Screen.unity
+    guid: 2575da95b0ee63d469ef25ca551e2a8b
+  - enabled: 1
+    path: Assets/NetworkCharacterSelect 1.unity
+    guid: 985a5698d746a5c44ba63324f89b24d3
+  - enabled: 1
+    path: Assets/Intro.unity
+    guid: 0234473abc2b2e34689a1acb4bca6976
+  - enabled: 1
+    path: Assets/TestConnectToHost.unity
+    guid: 793e06e603777ed4aaeedfddd7afd849
+  - enabled: 1
+    path: Assets/Disclaimer.unity
+    guid: 8d5ec02b79d3550408e48146b6de1b3b
+  - enabled: 1
+    path: Assets/Intro2.unity
+    guid: e06e6bced7a9d984c9365c81804c67af
+  - enabled: 1
+    path: Assets/CharacterSelect.unity
+    guid: 1afc3dfccd0460446b457a1d7d2fba75
+  - enabled: 1
+    path: Assets/WebGLStart.unity
+    guid: 6cc1569bc4e97374f96029c3d9e0e592
+  m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

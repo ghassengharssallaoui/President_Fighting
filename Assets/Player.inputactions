@@ -1,0 +1,2005 @@
+{
+    "name": "Player",
+    "maps": [
+        {
+            "name": "PlayerControl",
+            "id": "7bbe8a15-d0dc-42bc-83d4-7b99069e8036",
+            "actions": [
+                {
+                    "name": "Start",
+                    "type": "Value",
+                    "id": "a9399d44-4cf3-4468-bc15-07ec5f9e9403",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ConnectKeyboard",
+                    "type": "Value",
+                    "id": "9b317daf-de4d-4c7e-b026-a561ee38da20",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ConnectController",
+                    "type": "Value",
+                    "id": "8c6e1bc8-f5c1-45e8-b92f-df283f2e7870",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "WASDMove",
+                    "type": "Value",
+                    "id": "51348985-4e07-4592-9288-5de15e316f89",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ArrowKeysMove",
+                    "type": "Value",
+                    "id": "167f75d7-26ca-4902-a104-9bfa98f18f64",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "J",
+                    "type": "Value",
+                    "id": "4ae912db-112d-4720-9785-e936dd351dc2",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "K",
+                    "type": "Value",
+                    "id": "d785aa0e-01fe-4f33-ba7f-6c9bceeb5919",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "L",
+                    "type": "Value",
+                    "id": "1b2f15f7-0cd7-49d4-b5c0-24a4f83e9091",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "I",
+                    "type": "Value",
+                    "id": "c378778c-d034-4fe4-9371-00fbae083172",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Space",
+                    "type": "Value",
+                    "id": "3223469a-2025-4540-b8fe-1317818cf757",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "BackTick",
+                    "type": "Value",
+                    "id": "34522311-fe8a-46cd-b218-caa1b4772ba7",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "1",
+                    "type": "Value",
+                    "id": "358598a2-8cd1-44ae-816e-5f539de91864",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "2",
+                    "type": "Value",
+                    "id": "0d2513a2-e525-4cea-bfc3-1d87d7e663bf",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "3",
+                    "type": "Value",
+                    "id": "6403e930-d342-4ef2-a63f-cb7acd32a282",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "4",
+                    "type": "Value",
+                    "id": "22e33ef1-86a7-4ac2-9ab8-b49f9df3c624",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "5",
+                    "type": "Value",
+                    "id": "fdd02708-a356-4dd9-b90e-0e35a009450d",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "6",
+                    "type": "Value",
+                    "id": "d9908e21-f775-4ffa-8c83-0dfa21807fb6",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "7",
+                    "type": "Value",
+                    "id": "de8167c2-4f89-4183-b254-1e8add510492",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "8",
+                    "type": "Value",
+                    "id": "79c5d794-9a4d-4a9a-ae4c-a7022ed3b29a",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "9",
+                    "type": "Value",
+                    "id": "abee335b-fb04-4b57-8167-ae14482e470e",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "0",
+                    "type": "Value",
+                    "id": "70a6071d-70b2-45f9-b958-f636110959c9",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Hyphen",
+                    "type": "Value",
+                    "id": "78e42d8d-f95e-4917-b0e5-f8dcbdd5ca2b",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Equals",
+                    "type": "Value",
+                    "id": "7423418b-390f-4fc7-9f69-4b8567d82a9a",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Delete",
+                    "type": "Value",
+                    "id": "6319e6eb-e115-45ce-986d-99658faff934",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Tab",
+                    "type": "Value",
+                    "id": "2759c2e4-8d56-4c7b-bc94-48d76d277e28",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Q",
+                    "type": "Value",
+                    "id": "b4b6bfe6-16ce-48eb-92c9-f8dafa4caa4e",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "E",
+                    "type": "Value",
+                    "id": "ccf3ea7f-c026-4a2e-8455-ae48aab2aabc",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "R",
+                    "type": "Value",
+                    "id": "1bfe89c1-d47b-4ada-997a-412adad74bc8",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "T",
+                    "type": "Value",
+                    "id": "b47d2e26-c398-415e-8cd3-586720c3e6a8",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Y",
+                    "type": "Value",
+                    "id": "aa182fdc-4cd2-43c4-bdda-69f5bd3aae54",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "U",
+                    "type": "Value",
+                    "id": "a54b983e-6325-40bc-9ae9-06382f8507dc",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "O",
+                    "type": "Value",
+                    "id": "57167853-9b43-4437-9d52-8ca6bee6cea3",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "P",
+                    "type": "Value",
+                    "id": "cb03b5a3-306d-4cbc-8109-f4208de7a273",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "LBracket",
+                    "type": "Value",
+                    "id": "deb2c9f6-e3ee-472a-b0e9-5606d6727c0d",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RBracket",
+                    "type": "Value",
+                    "id": "5c09dddb-cd61-4c70-bede-bfd50abefad2",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Backslash",
+                    "type": "Value",
+                    "id": "f7302906-c3c3-4099-925a-7309970379b8",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "CapsLock",
+                    "type": "Value",
+                    "id": "451379b8-132a-4a30-ae99-da0b743b82ba",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "F",
+                    "type": "Value",
+                    "id": "f26ccfae-f259-4eb4-a337-1c4fbbffd1a2",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "G",
+                    "type": "Value",
+                    "id": "4e77b933-f5a1-4b53-9feb-58202139577a",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "H",
+                    "type": "Value",
+                    "id": "3c05debf-3b20-4850-9e4f-160b8a03da3c",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Semicolon",
+                    "type": "Value",
+                    "id": "5793c127-26c4-4ccd-a0ca-7b938bbcc2eb",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Apostrophe",
+                    "type": "Value",
+                    "id": "1da9582d-4c98-434d-b70c-677a1569d769",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Return",
+                    "type": "Value",
+                    "id": "421dce4a-2810-4ede-8842-aec4376fb257",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Shift",
+                    "type": "Value",
+                    "id": "bd51818d-e634-4b67-a42d-f966db51b00a",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Z",
+                    "type": "Value",
+                    "id": "874ab81a-e76d-48f0-967d-c31f77e7fbe3",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "X",
+                    "type": "Value",
+                    "id": "cebb92db-2dce-4a03-bfe6-6c7512209f38",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "C",
+                    "type": "Value",
+                    "id": "d21b8e6b-0e60-443c-8dfa-868663069423",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "V",
+                    "type": "Value",
+                    "id": "e69a5b3c-c5b9-43c6-bcc5-b049c025a656",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "B",
+                    "type": "Value",
+                    "id": "ed9752e6-52d8-4d2e-9f7d-852005bdf4d7",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "N",
+                    "type": "Value",
+                    "id": "f8caa096-d750-4b58-9eea-9133a2286fb3",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "M",
+                    "type": "Value",
+                    "id": "24fca296-d8d3-49a2-9a17-fa63d1ce81d5",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Comma",
+                    "type": "Value",
+                    "id": "0f79a49c-d81c-44ca-bb34-fa770e012d72",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Period",
+                    "type": "Value",
+                    "id": "66b73a92-3df8-4ebb-8fe8-1649378846d6",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Slash",
+                    "type": "Value",
+                    "id": "184014dc-3d2e-484e-b10a-3f556d1e2557",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RShift",
+                    "type": "Value",
+                    "id": "8a0ad584-1bec-449b-953d-a38a4613c96e",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "LControl",
+                    "type": "Value",
+                    "id": "67cf101b-0d38-46ef-8e6e-dc5b4ba99ca3",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "LAlt",
+                    "type": "Value",
+                    "id": "ed4994c1-81c7-4302-b3c9-8e55622db8f2",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RAlt",
+                    "type": "Value",
+                    "id": "c93e2249-38e8-41d5-aaa8-dd9d4f92bc0c",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RCtl",
+                    "type": "Value",
+                    "id": "d93bd1a7-eb30-4b11-ab31-e80373aea790",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "fn",
+                    "type": "Value",
+                    "id": "f428c01d-6a52-48cc-8b89-801aad5bdb30",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "home",
+                    "type": "Value",
+                    "id": "d8318a2b-2109-47e4-a5a1-fd58766971f9",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "pgup",
+                    "type": "Value",
+                    "id": "c72e5430-9dc2-4462-bddf-39e2c7cf44c0",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "del",
+                    "type": "Value",
+                    "id": "b3bccaa7-4027-4e8d-b62a-afe0699b22df",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "end",
+                    "type": "Value",
+                    "id": "1846bb95-7593-4e3d-9a62-4e2cf8ebb0ba",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "pgdwn",
+                    "type": "Value",
+                    "id": "d48be8d9-4d51-4269-8b88-bc42d1da4264",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "npdequals",
+                    "type": "Value",
+                    "id": "67e21cbf-0b92-4c03-9851-bd7af2e9b09f",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ndpslash",
+                    "type": "Value",
+                    "id": "28aeccd1-a01f-465c-be0d-97fc759f8779",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "npdstar",
+                    "type": "Value",
+                    "id": "22e157b5-6595-4327-8385-3658ec01d6c2",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "npd7",
+                    "type": "Value",
+                    "id": "823319f7-de24-47cc-9d80-ded6cb6760e3",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "npd8",
+                    "type": "Value",
+                    "id": "afc59034-9607-4d55-bd3a-5ef2d5b5f231",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "npd9",
+                    "type": "Value",
+                    "id": "2e9c55e7-2452-4e72-8d08-18e89c09d88a",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "npdminus",
+                    "type": "Value",
+                    "id": "326465d3-6093-4d31-9032-6f8f25c9ac27",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "npd4",
+                    "type": "Value",
+                    "id": "b87552c8-42fb-4eb1-9c0e-b3d2a679a954",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "npd5",
+                    "type": "Value",
+                    "id": "eb5f434a-2b10-48c5-ac22-fbac3c949b4a",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "npd6",
+                    "type": "Value",
+                    "id": "a4e88392-869a-48e7-a7ef-df0aedc715ac",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "npdplus",
+                    "type": "Value",
+                    "id": "f3e15a5b-d303-4345-b107-8aa9e08153e3",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "npd1",
+                    "type": "Value",
+                    "id": "4b4f8d14-cb3d-43c5-bad1-4ede0a23051a",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "npd2",
+                    "type": "Value",
+                    "id": "164070d1-54ff-4cd0-b815-d4b9ec8904cc",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "npd3",
+                    "type": "Value",
+                    "id": "f91999d7-38ad-4180-b3b7-c05dbfd4bdb0",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "npd0",
+                    "type": "Value",
+                    "id": "1f034226-5e8b-471c-bdaa-ba53c5490a82",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "npddot",
+                    "type": "Value",
+                    "id": "e85257c2-fd75-4de9-a7b3-e817d1c9a4bc",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "npdenter",
+                    "type": "Value",
+                    "id": "8f897e88-e63c-40e6-885e-9f87e07fdc55",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "----------------SEPARATOR-------------",
+                    "type": "Value",
+                    "id": "3cdbcbd5-92c9-4160-8646-59fbcba87956",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "LStick",
+                    "type": "Value",
+                    "id": "c98f701c-680f-495f-bf81-8e12b0759ac1",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RStick",
+                    "type": "Value",
+                    "id": "330ff525-24de-462c-ab04-7456d3855e99",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "DPad",
+                    "type": "Value",
+                    "id": "f2065fc2-7419-4852-8fa4-3479e338c60f",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "BttnN",
+                    "type": "Value",
+                    "id": "3a385b50-0067-4c23-893e-9db6421e3917",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "BttnS",
+                    "type": "Value",
+                    "id": "6134bcce-4bb0-4fd4-9e6c-2c5ba0d1d5e9",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "BttnW",
+                    "type": "Value",
+                    "id": "8c3a81c9-204a-4365-9dd9-f5671808cb96",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "BttnE",
+                    "type": "Value",
+                    "id": "ea0630f2-9931-4e06-9b2f-071412b53f33",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "R1",
+                    "type": "Value",
+                    "id": "005c7aae-ba07-4783-8590-d3768a5a7a83",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "R2",
+                    "type": "Value",
+                    "id": "04286d46-97d0-4a85-a417-f2c5c4038117",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "L1",
+                    "type": "Value",
+                    "id": "152986d0-99ad-454c-86de-b582c603b960",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "L2",
+                    "type": "Value",
+                    "id": "720922de-6e8d-4b70-b2e5-3253db8f96f6",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=-1)",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a1ef5cc9-f00e-422e-b852-8e8236bd99a1",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Start",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "42ab1cbc-a225-40ab-a3a0-64670f128ed2",
+                    "path": "<Gamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "GamePad",
+                    "action": "Start",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "955ad139-10b3-4fda-a35a-8eb2bdd5cc3c",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "ConnectKeyboard",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b7ea722c-e33b-4a5b-8743-76e02721e34e",
+                    "path": "<Gamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "GamePad",
+                    "action": "ConnectController",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7bb98058-a6d7-469c-8906-9c3385f42f08",
+                    "path": "<Keyboard>/j",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "J",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "2D Vector",
+                    "id": "c3b025ec-bae0-4644-9e8e-41df84982109",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "WASDMove",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "45d587ba-db64-44e6-aa7d-3221f6450009",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "WASDMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "0ded46fc-5ef5-4989-bce6-1e8e3545132a",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "WASDMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "9ce53c9e-ec32-4127-bf8b-74907c252be0",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "WASDMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "5d45d4fb-6fc5-4a63-864c-a4a388cd65b6",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "WASDMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "2D Vector",
+                    "id": "06b87dab-ade0-479d-8bf2-3a72bff42e3a",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ArrowKeysMove",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "1e075bee-7d9c-447e-98d0-51d73a5bd959",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "ArrowKeysMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "c645b569-f310-4145-b3f0-6ef13a98155c",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "ArrowKeysMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "0d3711f8-c2c7-4382-a1f6-b3cdaca7d5f4",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "ArrowKeysMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "8ed7d68d-efca-4002-9c7a-31a56079231c",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "ArrowKeysMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "93760784-da1d-4d10-8073-8ddb4d81fdcb",
+                    "path": "<Keyboard>/k",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "K",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "30ac1e35-0b64-4c82-a4ae-547a5d8100da",
+                    "path": "<Keyboard>/l",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "L",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c23428c6-2b64-4c83-826a-6e19cf023f81",
+                    "path": "<Keyboard>/i",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "I",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4e84dd50-1408-4413-8bb1-550a685b940e",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Space",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bdbc3a57-85b9-4e53-8d00-e2e4d1bd5a3b",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "GamePad",
+                    "action": "BttnN",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "873f8d90-5d60-4a12-aaef-fe45db7f5b8b",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "GamePad;Keyboard",
+                    "action": "BttnS",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "af8c35d2-272f-4845-8b5f-2d19a4c530e3",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "GamePad",
+                    "action": "BttnW",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6c9418aa-8a67-423b-8080-89f93b372667",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "GamePad",
+                    "action": "BttnE",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3b22b273-008e-4209-b502-930ff6b23168",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "GamePad",
+                    "action": "R1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0e28d44f-a1bc-43e3-9f95-06becbfb6cc6",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "GamePad",
+                    "action": "R2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b9acc5c7-15d7-482a-a04f-08d5e2c22cae",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "GamePad",
+                    "action": "L1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9e50bc49-ffca-4782-9411-0053384822fb",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "GamePad",
+                    "action": "L2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cd19abcb-7242-422e-9934-a99a73d83b4c",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LStick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7e89f140-b68a-4553-89ab-6a1c16cf5bee",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RStick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "10498927-d48e-47bb-a1e9-259fbb39a069",
+                    "path": "<Gamepad>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DPad",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "865b7422-66f7-4384-b2e0-262f96b8d545",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0057af11-6235-4d3d-9e12-8b9045393089",
+                    "path": "<Keyboard>/2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f8b2e713-ff5a-4eeb-b662-9cfdef885ccc",
+                    "path": "<Keyboard>/3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5c10c17e-45f5-4092-8836-d8cb0d5c5abc",
+                    "path": "<Keyboard>/4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "27dad0d8-e94e-4739-b3df-7f9da3c6ad1b",
+                    "path": "<Keyboard>/5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "5",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a91f5584-2a19-4c86-8125-97ca5d26cf45",
+                    "path": "<Keyboard>/6",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "6",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "049625a7-d97e-4b87-8170-7c8eb8df8e15",
+                    "path": "<Keyboard>/7",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "7",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "837025e1-0e23-4772-91ca-a67f8ea11359",
+                    "path": "<Keyboard>/8",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "8",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a233e68e-602d-4da4-8762-892e36e03b7a",
+                    "path": "<Keyboard>/9",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "9",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "16716984-0866-448b-8771-be2ab64e5ccf",
+                    "path": "<Keyboard>/0",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "0",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dca9ceb9-433d-4e1d-a022-d8d59046723f",
+                    "path": "<Keyboard>/minus",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Hyphen",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "223031a3-db8b-44a4-a0bd-8d026f476381",
+                    "path": "<Keyboard>/equals",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Equals",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7ace82a0-4c69-452f-9324-f75ade156f95",
+                    "path": "<Keyboard>/backspace",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Delete",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "28f1daa0-cd16-4580-acee-a1d3774b72ee",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Q",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c75d3fcc-af92-48ae-9560-5e3864b9e47a",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "E",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6f00fa2c-66ab-4bb9-bb09-224ec04bd482",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "R",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c488e9ba-b084-4a1f-bd55-443a1fda0412",
+                    "path": "<Keyboard>/t",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "T",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "17da15c6-2f0a-4ca8-a511-6e4ac1bdf17d",
+                    "path": "<Keyboard>/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Y",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a55c47b2-731a-4043-9e2b-ce50244b4a58",
+                    "path": "<Keyboard>/u",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "U",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5c1e2d79-0cbf-4ffd-8b3a-074962c57807",
+                    "path": "<Keyboard>/o",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "O",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ff95f581-0348-4e83-88fb-62fa0a4bfb61",
+                    "path": "<Keyboard>/p",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "P",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f1fed9d5-9926-4116-be4c-808206873674",
+                    "path": "<Keyboard>/leftBracket",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "LBracket",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ce1d12f6-9858-42b9-873c-a8c566a013c1",
+                    "path": "<Keyboard>/rightBracket",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "RBracket",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "213886cd-c685-4937-b7a9-2efcdb435062",
+                    "path": "<Keyboard>/backslash",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Backslash",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3e9813c0-daac-4965-bd38-c12ba9517514",
+                    "path": "<Keyboard>/capsLock",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "CapsLock",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "401e6d6a-e382-4c0c-8a8d-6cbd99b51407",
+                    "path": "<Keyboard>/rightAlt",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "RAlt",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "af9855d2-df49-48d6-b9d9-e8321a494558",
+                    "path": "<Keyboard>/numpadEquals",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "npdequals",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "22584e38-f66b-446b-8463-25105c04a30e",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Tab",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "75baee5d-4ba6-40cc-a9d3-0805439fc3b8",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "F",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "21dadfd3-43bb-4dd6-9c3c-69d190764e0a",
+                    "path": "<Keyboard>/g",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "G",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "defee902-8d73-4af0-994b-1865083bd98e",
+                    "path": "<Keyboard>/h",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "H",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "59d167c9-8346-4641-a4a1-f8d2de528eea",
+                    "path": "<Keyboard>/semicolon",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Semicolon",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ee6985f8-c667-4854-a784-d74c8982ab1e",
+                    "path": "<Keyboard>/quote",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Apostrophe",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ef537f83-bbae-46c9-a889-5c64b35619c2",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Return",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "94e79150-faa8-4d2c-a302-da69187795fe",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Shift",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ba63353d-5378-4fef-938d-d67c6878d959",
+                    "path": "<Keyboard>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Z",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "eaae9122-f089-4892-a323-c8d4f7422116",
+                    "path": "<Keyboard>/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "X",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "56465813-5898-427d-82f3-7819fea83e44",
+                    "path": "<Keyboard>/c",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "C",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b46ffcae-ca5b-42a0-835f-724737a35af2",
+                    "path": "<Keyboard>/v",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "V",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ad05e038-0ebb-4684-9970-4d9e950d8228",
+                    "path": "<Keyboard>/b",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "B",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "22b8f0c0-b8c1-441c-8647-8bb5aa2689dc",
+                    "path": "<Keyboard>/n",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "N",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3f69f874-af56-47c2-9a3c-249aa5484501",
+                    "path": "<Keyboard>/m",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "M",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "510a4e55-40f9-43fd-a3de-f8dfdda8851d",
+                    "path": "<Keyboard>/comma",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Comma",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a4c21212-d879-4fbf-a42a-fdd439920e5b",
+                    "path": "<Keyboard>/period",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Period",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c22cf44f-8e76-43f1-810a-259b684f0b1b",
+                    "path": "<Keyboard>/slash",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Slash",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3e85b494-1fc6-4eb8-aed1-becb472fe538",
+                    "path": "<Keyboard>/rightShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "RShift",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b263af20-f5cf-4339-96f9-fcbc0775967a",
+                    "path": "<Keyboard>/leftCtrl",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "LControl",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7202d7a2-b5dd-43cf-ab70-3ac551e12704",
+                    "path": "<Keyboard>/leftAlt",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "LAlt",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0078154d-0204-4b22-920f-ea2c3b22d747",
+                    "path": "<Keyboard>/pageUp",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "pgup",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2859367b-3ef3-47ce-8743-96e44bc45c74",
+                    "path": "<Keyboard>/numpad6",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "npd6",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5325f215-086f-453a-8a36-4863ff354936",
+                    "path": "<Keyboard>/contextMenu",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "fn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "22602744-f406-4f60-9e3b-9feff9b16e27",
+                    "path": "<Keyboard>/end",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "end",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dfab7039-3fed-4f38-9dcb-e3243592eaf7",
+                    "path": "<Keyboard>/numpad8",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "npd8",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8c2e25fe-62b9-426c-bab7-5f021c0d26f0",
+                    "path": "<Keyboard>/numpad3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "npd3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4d875719-1482-46ac-9fc6-f0a4cdfd8d73",
+                    "path": "<Keyboard>/rightCtrl",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "RCtl",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "716e9a48-ad52-4a3d-8fbf-fa7126b0525a",
+                    "path": "<Keyboard>/home",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "home",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ca4d2ed2-8e6f-46a9-8a7c-39fbc0628b3c",
+                    "path": "<Keyboard>/delete",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "del",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "626b842c-acb5-4804-a721-bdfd30ef3e8b",
+                    "path": "<Keyboard>/pageDown",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "pgdwn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9a196fa0-23cc-4470-bfaf-4df6d5c0d1da",
+                    "path": "<Keyboard>/numpadMultiply",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "npdstar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1f29e22c-8959-46ce-828a-c9003b5fbdfe",
+                    "path": "<Keyboard>/numpad4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "npd4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6d8535f9-1c35-49d6-91ac-22212ee212c3",
+                    "path": "<Keyboard>/numpad1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "npd1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a5c130b2-4dde-4a3c-a232-e0278f02e49e",
+                    "path": "<Keyboard>/numpadPeriod",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "npddot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "34577005-b6dd-4ff6-b5c7-ca95a36df6a4",
+                    "path": "<Keyboard>/numpadDivide",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "ndpslash",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "621726e1-7507-44a0-bff6-e7ae314626a1",
+                    "path": "<Keyboard>/numpad7",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "npd7",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6f1cb614-6c75-41b6-aa51-4a7775ce2543",
+                    "path": "<Keyboard>/numpadMinus",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "npdminus",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ae68a977-86dc-4948-be2c-8ac479f3f165",
+                    "path": "<Keyboard>/numpad5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "npd5",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6b46d683-34ba-4d9f-8276-860093942e7b",
+                    "path": "<Keyboard>/numpadPlus",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "npdplus",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bfefdf50-863c-4cf4-acb3-9c2334ff51bf",
+                    "path": "<Keyboard>/numpad2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "npd2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f54f5a0c-7817-46ee-9014-1653e74b823a",
+                    "path": "<Keyboard>/numpad0",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "npd0",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f6e6c448-16a5-4950-99c6-8ebb12bd7500",
+                    "path": "<Keyboard>/numpadEnter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "npdenter",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f5deffe4-8260-4b78-9c0e-b51b0f00f8c3",
+                    "path": "<Keyboard>/numpad9",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "npd9",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ebcc7dfa-9a67-4026-bc56-4060011eafdf",
+                    "path": "<Keyboard>/backquote",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "BackTick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "GamePad",
+            "bindingGroup": "GamePad",
+            "devices": [
+                {
+                    "devicePath": "<Gamepad>",
+                    "isOptional": true,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Keyboard",
+            "bindingGroup": "Keyboard",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

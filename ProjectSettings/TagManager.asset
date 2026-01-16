@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Layer1 (Bottom Selector)
+  - Layer2 (Top Selector)
+  - 
+  - 
+  - Editor Only
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Below Background 11
+    uniqueID: 3507038957
+    locked: 0
+  - name: Below Background 10
+    uniqueID: 1943201833
+    locked: 0
+  - name: Below Background 9
+    uniqueID: 3176493461
+    locked: 0
+  - name: Below Background 8
+    uniqueID: 4106596609
+    locked: 0
+  - name: Below Background 7
+    uniqueID: 3270005943
+    locked: 0
+  - name: Below Background 6
+    uniqueID: 3047449645
+    locked: 0
+  - name: Below Background 5
+    uniqueID: 3787451203
+    locked: 0
+  - name: Below Background 4
+    uniqueID: 464955589
+    locked: 0
+  - name: Below Background 3
+    uniqueID: 1809724571
+    locked: 0
+  - name: Below Background 2
+    uniqueID: 1038821005
+    locked: 0
+  - name: Below Background 1
+    uniqueID: 1303504039
+    locked: 0
+  - name: Background
+    uniqueID: 3420928895
+    locked: 0
+  - name: AboveAllBackground
+    uniqueID: 621750365
+    locked: 0
+  - name: HUD1
+    uniqueID: 2791235159
+    locked: 0
+  - name: HUD2
+    uniqueID: 1153791511
+    locked: 0
+  - name: HUD3
+    uniqueID: 3500269687
+    locked: 0
+  - name: HUD4
+    uniqueID: 437743861
+    locked: 0
+  - name: HUD5
+    uniqueID: 337731289
+    locked: 0
+  - name: HUD6
+    uniqueID: 2506780201
+    locked: 0
+  - name: AboveAllHud
+    uniqueID: 2079287783
+    locked: 0
+  - name: BelowAll
+    uniqueID: 1062542497
+    locked: 0
+  - name: -2
+    uniqueID: 2396293287
+    locked: 0
+  - name: -1
+    uniqueID: 887501655
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: 1
+    uniqueID: 3093838047
+    locked: 0
+  - name: 2
+    uniqueID: 971240495
+    locked: 0
+  - name: AboveAll
+    uniqueID: 1224707555
+    locked: 0
+  - name: UI1
+    uniqueID: 1660478671
+    locked: 0
+  - name: UI2
+    uniqueID: 4207640891
+    locked: 0
+  - name: UI3
+    uniqueID: 1703291035
+    locked: 0
+  - name: AboveAllUI
+    uniqueID: 2236409605
+    locked: 0
+  - name: Level Transitions
+    uniqueID: 334529313
+    locked: 0
+  - name: Level Transitions2
+    uniqueID: 1541855319
+    locked: 0
