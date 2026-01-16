@@ -720,11 +720,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
-  cloudProjectId: 6e4a220d-8b0d-4a62-8c4e-3d81318302d4
+  cloudProjectId: 09bf2f0d-ab8b-41a2-8df1-98af5c85520f
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Electoral Carnage
-  organizationId: bomb-sequitur-games
+  projectName: President_Fighting
+  organizationId: gassen013
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

@@ -9,13 +9,16 @@ public class networkActivator : NetworkBehaviour
     public GameObject blackScreen;
     public GameObject[] localOnlyStuffToDestroy;
     public GameObject[] serverOnlyStuffToDestroy;
+    private RelayManager relayManager;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        relayManager = FindFirstObjectByType<RelayManager>();
         versionDecider = GameObject.Find("VersionDecider").GetComponent<VersionDecider>();
         if (versionDecider.server)
         {
-            NetworkManager.Singleton.StartHost();
+            //   NetworkManager.Singleton.StartHost();
+            relayManager.CreateRelay();
             foreach (GameObject g in serverOnlyStuffToDestroy)
             {
                 Destroy(g);
@@ -27,8 +30,8 @@ public class networkActivator : NetworkBehaviour
         {
             Destroy(offlineStuff);
             onlineStuff.active = true;
-            NetworkManager.Singleton.StartClient();
-
+            //  NetworkManager.Singleton.StartClient();
+            relayManager.JoinRelay();
         }
         else
         {
@@ -38,7 +41,7 @@ public class networkActivator : NetworkBehaviour
                 Destroy(g);
             }
         }
-        
+
     }
 
     // Update is called once per frame
